@@ -1,0 +1,662 @@
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&display=swap');
+
+h1 {
+    font-family: 'East Sea Dokdo', serif;
+    font-size: 90px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 490px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    word-wrap: break-word;
+}
+
+body {
+    font-family: 'Varela', serif;
+    font-size: 20px;
+}
+
+.inline {
+    display: inline;
+}
+
+.text-blue {
+    color: #4CD2FE;
+}
+
+.text-orange {
+    color: #FEB14D;
+}
+
+.desktop .block1 {
+    height: 140px;
+    margin-bottom: 40px;
+    float: right;
+    display: flex;
+    align-items: center;
+    margin-right: 160px;
+    margin-top: 13px;
+}
+
+.desktop .block2 {
+    height: 140px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    width: 680px;
+}
+
+.desktop .block3 {
+    height: 140px;
+    margin-bottom: 10px;
+    display: flex;
+    margin-top: 63px;
+    align-items: center;
+}
+
+.desktop .behind img {
+    border-radius: 500px;
+    height: 160px;
+}
+
+.desktop .block1 .text {
+    float: left;
+    margin-right: 20px;
+}
+
+.desktop .block1 .comboimage, .desktop .block2 .comboimage, .desktop .block3 .comboimage {
+    position: relative;
+}
+
+.desktop .block1 .after img {
+    height: 140px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border-radius: 500px;
+}
+
+.desktop .block2 .after img {
+    height: 140px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border-radius: 500px;
+}
+
+.desktop .block3 .after img {
+    height: 140px;
+    position: absolute;
+    top: -80px;
+    left: 10px;
+    border-radius: 500px;
+}
+
+.desktop .block4 .after img {
+    height: 140px;
+    position: absolute;
+    left: 10px;
+    border-radius: 500px;
+    top: 11px;
+}
+
+.desktop .block5 .after img {
+    height: 140px;
+    position: absolute;
+    top: 10px;
+    left: 250px;
+    border-radius: 500px;
+}
+
+.desktop .block6 .after img {
+    height: 140px;
+    position: absolute;
+    top: -63px;
+    left: 10px;
+    border-radius: 500px;
+}
+
+.desktop .block7 .after img {
+    height: 140px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border-radius: 500px;
+}
+
+.desktop .block8 .after img {
+    height: 140px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border-radius: 500px;
+}
+
+.desktop .block9 .after img {
+    height: 140px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border-radius: 500px;
+}
+
+.desktop .block10 .after img {
+    height: 140px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border-radius: 500px;
+}
+
+.desktop .block2 .text {
+    float: right;
+    margin-left: 20px;
+}
+
+.imagesWithText.desktop {
+    max-width: 860px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    overflow: hidden;
+}
+
+.imagesWithText.mobile {
+    max-width: 860px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    overflow: hidden;
+}
+
+.row {
+    width: 100%;
+    display: block;
+    height: 140px;
+}
+
+.desktop .block3 .text {
+    margin-right: 20px;
+    width: 420px;
+}
+
+.desktop .rightImg img {
+    height: 440px;
+    opacity: 0.5;
+}
+
+.desktop .rightImg2 img {
+    border-radius: 500px;
+    height: 320px;
+    position: absolute;
+    top: 453px;
+    left: 50px;
+}
+
+.desktop .rightImg {
+    top: 61px;
+    position: absolute;
+    right: -160px;
+}
+
+.desktop .block1 .text-on-plate {
+    position: absolute;
+    top: 577px;
+    width: 180px;
+    left: 121px;
+    text-align: center;
+    font-family: "Eagle Lake";
+}
+
+.desktop .leftImg img {
+    height: 450px;
+    opacity: 0.5;
+    position: absolute;
+    left: -189px;
+    top: 0;
+}
+
+.desktop .block4 {
+    width: 500px;
+    position: relative;
+    display: flex;
+    margin-left: 190px;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.desktop .block4 .text {
+    width: 190px;
+    margin-left: 30px;
+}
+
+.desktop .block5 {
+    margin-left: 190px;
+    display: flex;
+    margin-top: 60px;
+    width: 410px;
+    position: relative;
+}
+
+.desktop .block5 .text {
+    width: 230px;
+    margin-right: 10px;
+}
+
+.desktop .block6 {
+    margin-left: 250px;
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+    position: relative;
+}
+
+.desktop .block4 .leftImg2 {
+    border-radius: 500px;
+}
+
+.desktop .leftImg2 img {
+    border-radius: 500px;
+    position: absolute;
+    left: -330px;
+    top: 409px;
+    height: 320px;
+}
+
+.desktop .block6 .after {
+    height: 20px;
+    position: absolute;
+}
+
+.desktop .block6 .text {
+    margin-left: 40px;
+}
+
+.desktop .block7 {
+    margin-left: 240px;
+    margin-top: 30px;
+    display: flex;
+    width: 600px;
+    align-items: center;
+}
+
+.desktop .block7 .comboimage {
+    position: relative;
+}
+
+.desktop .block7 .text {
+    width: 410px;
+    margin-right: 30px;
+}
+
+.desktop .block9 {
+    display: flex;
+    margin-left: 170px;
+    margin-top: 80px;
+    align-items: center;
+}
+
+.desktop .block8 {
+    display: flex;
+    margin-left: 190px;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.desktop .block8 .comboimage {
+    position: relative;
+}
+
+.desktop .block8 .text {
+    margin-left: 30px;
+}
+
+.desktop .block9 .comboimage {
+    position: relative;
+}
+
+.desktop .block9 .text {
+    width: 490px;
+    margin-right: 30px;
+}
+
+.desktop .block10 {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.desktop .block10 .comboimage {
+    position: relative;
+}
+
+.desktop .block10 .comboimage {
+    margin-right: 30px;
+}
+
+.desktop .block10 .text {
+    width: 510px;
+}
+
+h2 {
+    font-family: 'East Sea Dokdo', serif;
+    font-size: 70px;
+    margin: 0 auto;
+    float: none;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    max-width: 500px;
+}
+
+h2 .text-blue {
+    display: inline;
+}
+
+h2 .text-orange {
+    display: inline;
+}
+
+.desktop .block4 .comboimage {
+    position: relative;
+}
+
+.desktop .block4 .text-on-plate {
+    position: absolute;
+    left: -176px;
+    top: 510px;
+    width: 100px;
+    font-family: "Eagle Lake";
+}
+
+.social-links-group {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+
+.social-links-group div {
+    padding: 0px 10px;
+}
+
+.cridentials {
+    text-align: center;
+    font-family: 'East Sea Dokdo', serif;
+    font-size: 40px;
+}
+
+@media screen and (max-width:900px) {
+    .imagesWithText.desktop {
+        display: none;
+    }
+}
+
+
+/* Mobile goes here */
+.mobile .block1 {
+    height: max-content;
+    margin-bottom: 40px;
+    float: right;
+    display: flex;
+    align-items: center;
+    margin-top: 63px;
+    position: relative;
+    padding-bottom: 215px;
+}
+
+.mobile .rightImg2 img {
+    border-radius: 550px;
+    position: absolute;
+    height: 230px;
+    right: -40px;
+    top: 240px;
+}
+
+.mobile.row {
+    width:;
+}
+
+.mobile .rightImg img {
+    height: 270px;
+    opacity: 0.7;
+}
+
+.mobile .rightImg {
+    position: relative;
+    right: 0;
+}
+
+.mobile .block1 .text-on-plate {
+    position: absolute;
+    top: 293px;
+    left: 41px;
+    width: 130px;
+    text-align: center;
+    font-size: 16px;
+    font-family: "Eagle Lake";
+}
+
+.mobile .block-bottom {
+    position: relative;
+}
+
+.mobile .leftImg img {
+    height: 220px;
+}
+
+.mobile .leftImg2 img {
+    border-radius: 200px;
+    height: 230px;
+    position: absolute;
+    left: -80px;
+    top: 208px;
+}
+
+.mobile .leftImg2 {
+}
+
+.mobile {
+    overflow: hidden;
+}
+
+.mobile .block-bottom .text-on-plate {
+    position: absolute;
+    top: 291px;
+    left: 4px;
+    width: 130px;
+    text-align: left;
+    font-size: 16px;
+    font-family: "Eagle Lake";
+}
+
+.mobile h2 {
+    margin-top: 330px;
+}
+
+.mobile .slider-block .behind img {
+    height: 200px;
+    border-radius: 500px;
+}
+
+.block3 .behind img {
+    position: absolute;
+    height: 160px;
+    border-radius: 500px;
+    top: -90px;
+}
+
+.mobile .block3 .comboimage {
+    position: relative;
+}
+
+.mobile .block3 .after img {
+    height: 180px;
+    position: absolute;
+    border-radius: 500px;
+    top: 10px;
+    left: 10px;
+}
+
+.block2 .comboimage {
+    position: relative;
+}
+
+.mobile .slider-block .after img {
+    height: 180px;
+    top: 10px;
+    left: 50%;
+    margin-left: -90px;
+    border-radius: 500px;
+    position: absolute;
+}
+
+.mobile .block4 .behind img {
+    position: absolute;
+    height: 200px;
+    border-radius: 500px;
+}
+
+/**/
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper-container {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    height: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.mobile .block2 .behind {
+    position: relative;    /* left: 0; */
+}
+
+.mobile .block2 .comboimage {
+    position: relative;
+    width: 230px;
+    margin: 0 auto;
+    float: none;
+    user-select: none;
+}
+
+.mobile .swiper-container .row {
+    height: max-content;
+}
+
+.mobile .swiper-slide {
+    background-color: #eee;
+}
+
+.mobile .text-on-plate {
+    margin: 0 auto;
+    float: none;
+    padding: 0 10px;
+    margin-top: 10px;
+    max-width: 300px;
+}
+.mobile .slider-block {
+    user-select: none;
+}
+
+.swiper-container {
+    margin-bottom: 50px;
+}
+
+@media screen and (min-width:901px) {
+    .mobile {
+        display: none;
+    }
+}
+.mobile .block2 {
+    height: max-content;
+    margin-bottom: 40px;
+    float: left;
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+    position: relative;
+    padding-bottom: 185px;
+}
+
+.mobile  .block2 .text-on-plate {
+    position: absolute;
+    top: 250px;
+    width: 130px;
+    text-align: left;
+    font-size: 16px;
+    font-family: "Eagle Lake";
+}
+
+.disclaimer {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    padding-left: 30px;
+    margin-bottom: 40px;
+    background-color: #e1e1e1;
+    border: 1px solid;
+    border-radius: 40px;
+}
+
+.commenting-people {
+    max-width: 900px;
+    margin: 0 auto;
+    float: none;
+    background-color: #e1e1e1;
+    padding: 10px 20px;
+    margin-top: 50px;
+    padding-top: 60px;
+    border-radius: 20px;
+}
+
+.commenting-people h3 {
+    text-align: center;
+}
+
+.separator {
+    text-align: center;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+    opacity:1;
+    transition: opacity 0.3s ease-in-out;
+    
+}
+a:hover{
+    opacity: 0.7;
+    transition: opacity 0.3s ease-in-out;
+}
+main {
+    margin-bottom: 20px;
+}
