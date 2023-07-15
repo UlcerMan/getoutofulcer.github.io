@@ -156,12 +156,14 @@ body {
     margin-left: 20px;
 }
 
+@media screen and (min-width: 901px){
 .imagesWithText.desktop {
     max-width: 860px;
     display: block;
     margin: 0 auto;
     float: none;
     overflow: hidden;
+}
 }
 
 .imagesWithText.mobile {
@@ -389,14 +391,17 @@ h2 .text-orange {
     font-size: 40px;
 }
 
-@media screen and (max-width:900px) {
-    .imagesWithText.desktop {
-        display: none;
-    }
+@media screen and (max-width: 900px) {
+  .imagesWithText.desktop {
+    display: none;
+    border:1px solid red;
+  }
 }
 
 
+
 /* Mobile goes here */
+
 .mobile .block1 {
     height: max-content;
     margin-bottom: 40px;
@@ -520,7 +525,6 @@ h2 .text-orange {
     border-radius: 500px;
 }
 
-/**/
 body {
     background: #eee;
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -557,7 +561,7 @@ body {
 }
 
 .mobile .block2 .behind {
-    position: relative;    /* left: 0; */
+    position: relative;
 }
 
 .mobile .block2 .comboimage {
