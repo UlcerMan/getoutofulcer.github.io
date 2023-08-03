@@ -664,3 +664,10 @@ a:hover{
 main {
     margin-bottom: 20px;
 }
+
+iframe {
+    margin: 0 auto;
+    float: none;
+    text-align: center;
+    display: block;
+}
