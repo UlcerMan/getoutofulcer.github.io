@@ -29,6 +29,12 @@ body {
 
 .text-orange {
     color: #FEB14D;
+    display: inline;
+}
+
+.text-red{
+    color:red;
+    display: inline;
 }
 
 .desktop .block1 {
@@ -389,6 +395,7 @@ h2 .text-orange {
     text-align: center;
     font-family: 'East Sea Dokdo', serif;
     font-size: 40px;
+    margin-bottom: 30px;
 }
 
 @media screen and (max-width: 900px) {
@@ -528,7 +535,7 @@ h2 .text-orange {
 body {
     background: #eee;
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-    font-size: 14px;
+    font-size: 20px;
     color: #000;
     margin: 0;
     padding: 0;
@@ -670,4 +677,13 @@ iframe {
     float: none;
     text-align: center;
     display: block;
+}
+
+.call-to-action {
+    font-family: 'East Sea Dokdo', serif;
+    text-align: center;
+    font-size: 50px;
+    max-width: 510px;
+    margin: 0 auto;
+    margin-bottom: 60px;
 }
