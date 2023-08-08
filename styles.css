@@ -687,3 +687,10 @@ iframe {
     margin: 0 auto;
     margin-bottom: 60px;
 }
+
+.amazon-version{
+    text-align: center;
+    font-family: 'East Sea Dokdo', serif;
+    font-size: 60px;
+    color: darksalmon;
+}
